@@ -1,0 +1,9 @@
+# After starting 3 nginx containers as daemons
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+98fa067a8050        nginx               "nginx -g 'daemon of…"   15 seconds ago      Up 14 seconds       80/tcp              pensive_burnell
+374e7fce37fc        nginx               "nginx -g 'daemon of…"   17 seconds ago      Up 16 seconds       80/tcp              adoring_nobel
+d337ea441858        nginx               "nginx -g 'daemon of…"   30 seconds ago      Up 29 seconds       80/tcp              ecstatic_sinoussi
+
+# After stopping 2 containers of those
+CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS              PORTS               NAMES
+d337ea441858        nginx               "nginx -g 'daemon of…"   About a minute ago   Up About a minute   80/tcp              ecstatic_sinoussi

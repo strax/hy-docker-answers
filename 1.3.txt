@@ -1,0 +1,3 @@
+docker run -it ubuntu sh -c 'read website; sleep 3; curl http://$website;'
+docker exec aeb51 apt-get update
+docker exec aeb51 apt-get install -y curl
